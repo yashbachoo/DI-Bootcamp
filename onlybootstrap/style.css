@@ -1,0 +1,27 @@
+.grid {
+    padding: 130px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+    .grid  {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;  
+    grid-template-columns: 1fr 1fr 1fr; 
+
+}
+.one {
+    background-color: white;  
+    
+}
+.two {
+    background-color: white;
+}
+.three {
+    background-color: white;
+}
+.btn {
+    margin-top: 10px;
+    margin-left: 15px;
+}
